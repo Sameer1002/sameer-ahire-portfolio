@@ -46,6 +46,11 @@ body:has(.portfolio-root) {
   text-decoration: none;
 }
 
+.portfolio-section,
+.portfolio-root #home {
+  scroll-margin-top: 5.5rem;
+}
+
 .portfolio-section {
   max-width: 1100px;
   margin: 0 auto;

@@ -16,8 +16,18 @@ export default function Navbar() {
   const scrollTo = useScrollTo();
 
   const handleNavClick = (sectionId) => {
-    scrollTo(sectionId);
+    if (document.activeElement instanceof HTMLElement) {
+      document.activeElement.blur();
+    }
+
+    const shouldDeferScroll =
+      menuOpen && window.matchMedia("(max-width: 900px)").matches;
+
     setMenuOpen(false);
+
+    // Defer scroll until mobile menu finishes closing (fixes iOS/Android)
+    const delay = shouldDeferScroll ? 300 : 0;
+    window.setTimeout(() => scrollTo(sectionId), delay);
   };
 
   const lastName = profile.name.split(" ")[1];

@@ -29,7 +29,7 @@ export default function Contact() {
               rel={link.external ? "noopener noreferrer" : undefined}
             >
               <span className={styles.contactIcon}>{link.icon}</span>
-              <div>
+              <div className={styles.contactLinkBody}>
                 <div className={styles.contactLabel}>{link.label}</div>
                 <div className={styles.contactValue}>{link.value}</div>
               </div>

@@ -1,0 +1,132 @@
+.txt-btn {
+  text-transform: none !important;
+  color: var(--primary) !important;
+  font-size: 13px !important;
+  line-height: normal !important;
+  border-radius: 0px !important;
+  border-bottom: 2px solid transparent !important;
+  padding: 4px 10px !important;
+}
+.txt-btn:hover {
+  background-color: transparent !important;
+  border-bottom: 2px solid var(--secondary) !important;
+}
+
+.sq_ico_btn {
+  border-radius: 6px !important;
+  padding: 4px !important;
+}
+.sq_ico_btn .MuiSvgIcon-root {
+  font-size: 16px !important;
+}
+
+.sq_ico_btn.edit {
+  border: 1px solid var(--success) !important;
+  color: var(--success) !important;
+}
+
+.sq_ico_btn.delete {
+  border: 1px solid var(--error) !important;
+  color: var(--error) !important;
+}
+
+/* Button used in the Admin Portal */
+.primary-action-btn {
+  font-size: 13px !important;
+  line-height: normal !important;
+  font-weight: 500 !important;
+  background-color: var(--primary) !important;
+  color: var(--white) !important;
+  text-transform: none !important;
+  padding: 8px 20px !important;
+}
+/* Button used in the Admin Portal */
+
+/* Buttons for the User Portal */
+.primary-btn {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: var(--font-playfair) !important;
+  line-height: normal !important;
+  text-transform: none !important;
+  background: var(--primary);
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  padding: 8px 20px !important;
+}
+
+.secondary-btn {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  font-family: var(--font-playfair) !important;
+  line-height: normal !important;
+  text-transform: none !important;
+  background: var(--white);
+  color: var(--primary);
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  padding: 8px 20px !important;
+  border-color: transparent !important;
+}
+
+.secondary-btn:hover{
+  background-color: #d9d9d9 !important;
+}
+
+/* Buttons for the Tables */
+.success-btn {
+  background-color: #eff8e4 !important;
+  color: var(--success) !important;
+  border-radius: 4px !important;
+  font-size: 11px !important;
+  line-height: normal !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+}
+
+.approved-btn {
+  background-color: #1942611b !important;
+  color: var(--primary) !important;
+  border-radius: 4px !important;
+  font-size: 11px !important;
+  line-height: normal !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+}
+
+.pending-btn {
+  background-color: #fff0c1 !important;
+  color: var(--pending) !important;
+  border-radius: 4px !important;
+  font-size: 11px !important;
+  line-height: normal !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+}
+
+.pending-btn .MuiSvgIcon-root {
+  font-size: 14px !important;
+}
+
+.pending-btn.Mui-disabled {
+  background-color: #f1f1f1 !important;
+  color: #6c6b6b !important;
+}
+
+.back-btn {
+  font-size: 13px !important;
+  text-transform: none !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+  background: var(--white) !important;
+  color: var(--primary) !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+}
+.back-btn .MuiSvgIcon-root {
+  font-size: 14px !important;
+}
+
+.back-btn:hover{
+  background-color: #d9d9d9 !important;
+}

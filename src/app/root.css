@@ -1,0 +1,247 @@
+@import url(globals.css);
+@import url(auth/auth.css);
+@import url(../css/scroll-bar.css);
+@import url(../css/theme-ag-grid.css);
+@import url(../css/theme-ag-theme-quartz.css);
+@import url(../css/layout.css);
+@import url(../css/tables.css);
+@import url(../css/buttons.css);
+@import url(../css/textfields.css);
+@import url(../css/dialogs.css); 
+
+:root {
+  --ag-font-family: roboto;
+  --white: #ffffff;
+  --black: #000000;
+  --error: #f00;
+  --success: #709d29;
+  --pending: #cfae68;
+  --primary: #194261;
+  --secondary: #bc8f00;
+  --light-secondary: #cdac67;
+  --text: #5b5b5b;
+  --aliceblue: #eefaff;
+  --gry-txt: #a6a6a6;
+}
+
+.playfair {
+  font-family: var(--font-playfair) !important;
+}
+
+.roboto {
+  font-family: var(--font-roboto) !important;
+}
+
+[class*="ag-theme-"] {
+  font-family: inherit !important;
+}
+
+.black {
+  color: var(--black) !important;
+}
+.white {
+  color: var(--white) !important;
+}
+
+.primary {
+  color: var(--primary) !important;
+}
+
+.secondary {
+  color: var(--secondary) !important;
+}
+
+.l-secondary {
+  color: var(--light-secondary) !important;
+}
+.green {
+  color: var(--success) !important;
+}
+.red {
+  color: var(--error) !important;
+}
+
+.text {
+  color: var(--text) !important;
+}
+
+.yellow {
+  color: var(--pending) !important;
+}
+.gray {
+  color: #6c6b6b !important;
+}
+
+.light-gray {
+  color: #bfbfbf !important;
+}
+
+.gry-txt {
+  color: var(--gry-txt) !important;
+}
+
+.center {
+  text-align: center !important;
+}
+.right {
+  text-align: right !important;
+}
+.left {
+  text-align: left !important;
+}
+.justify {
+  text-align: justify !important;
+}
+
+.fw1 {
+  font-weight: 100 !important;
+}
+.fw2 {
+  font-weight: 200 !important;
+}
+.fw3 {
+  font-weight: 300 !important;
+}
+.fw4 {
+  font-weight: 400 !important;
+}
+.fw5 {
+  font-weight: 500 !important;
+}
+.fw6 {
+  font-weight: 600 !important;
+}
+.fw7 {
+  font-weight: 700 !important;
+}
+.fw8 {
+  font-weight: 800 !important;
+}
+.fw9 {
+  font-weight: 900 !important;
+}
+
+.gap1 {
+  gap: 8px !important;
+}
+
+.gap2 {
+  gap: 16px !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+main:not(:has(.portfolio-root)) {
+  background-color: #f2f2f2 !important;
+  min-height: 100vh !important;
+  position: relative !important;
+  width: 100vw !important;
+}
+
+.child-content {
+  height: calc(100vh - 70px) !important;
+  overflow: auto !important;
+  padding-bottom: 40px !important;
+  padding-top: 12px !important;
+}
+
+.w100 {
+  width: 100% !important;
+}
+
+.flex {
+  display: flex !important;
+}
+.w100 {
+  width: 100% !important;
+}
+.fx_fs {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+.fx_fe {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+}
+
+.fx_sb {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.fx_se {
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+}
+
+.fx_c{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+h1 {
+  font-size: 38px !important;
+  line-height: 58px !important;
+}
+
+h2 {
+  font-size: 32px !important;
+  line-height: 48px !important;
+}
+
+h3 {
+  font-size: 28px !important;
+  line-height: 40px !important;
+}
+
+h4 {
+  font-size: 22px !important;
+  line-height: 32px !important;
+}
+
+h5 {
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+
+h6 {
+  font-size: 13px !important;
+  line-height: 20px !important;
+}
+
+.txt-shadow {
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1) !important;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.absolute {
+  position: absolute !important;
+}
+
+.no-event{
+pointer-events: none !important;
+}
+
+@media (max-width: 550px) {
+  .child-content {
+    padding-bottom: 60px !important;
+  }
+  .mob_block{
+    display: block !important;
+  }
+  .mob_block .fx_fs{
+    padding-top: 8px !important;
+  }
+}

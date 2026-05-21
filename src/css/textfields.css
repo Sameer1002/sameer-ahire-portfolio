@@ -1,0 +1,81 @@
+.textfield .MuiOutlinedInput-root {
+  padding-left: 0px !important;
+}
+
+.textfield .MuiOutlinedInput-input {
+  color: var(--black) !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  padding: 10px 12px !important;
+}
+
+.textfield .MuiSvgIcon-root {
+  color: var(--primary) !important;
+}
+
+.textfield ::placeholder {
+  color: var(--gry-txt) !important;
+}
+.textfield .MuiOutlinedInput-notchedOutline {
+  border-color: var(--primary);
+  border-width: 1px !important;
+}
+
+.textfield .MuiAutocomplete-input {
+  padding: 10px 12px !important;
+}
+
+.MuiAutocomplete-option {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: var(--black) !important;
+}
+
+.auto-complete .MuiInputBase-root {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.textfield .datepicker .MuiOutlinedInput-input {
+  padding: 4px 12px !important;
+  padding-right: 0px !important;
+}
+
+.datepicker .MuiFormControl-root {
+  width: 100% !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--primary);
+  border-width: 2px !important;
+}
+
+.MuiInputBase-multiline {
+  padding: 0px !important;
+}
+
+.textfield .MuiInputLabel-outlined.MuiInputLabel-shrink {
+  transform: translate(12px, -8px) scale(0.75);
+  font-size: 14px !important;
+  color: var(--primary);
+  font-weight: 500 !important;
+}
+
+.textfield .MuiInputLabel-outlined {
+  transform: translate(12px, 10px) scale(1);
+  font-size: 13px !important;
+  font-weight: 500 !important;
+}
+
+.country-select .MuiInputBase-adornedEnd {
+  padding-right: 22px !important;
+}
+
+.datepicker .MuiFormControl-root {
+  width: 100% !important;
+}
+
+.MuiOutlinedInput-input.Mui-disabled {
+  color: #252c32 !important;
+  -webkit-text-fill-color: #252c32 !important;
+}

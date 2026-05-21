@@ -1,0 +1,60 @@
+export const experience = [
+  {
+    company: "Decimal Point Analytics",
+    role: "Front-End Developer",
+    period: "Feb 2025 – Present",
+    location: "Nashik, Maharashtra",
+    highlights: [
+      "Built and enhanced internal enterprise analytics systems using Next.js, React.js, and Material UI.",
+      "Developed modular, reusable, and scalable web components for faster feature delivery.",
+      "Contributed to front-end application upgrades using Angular with cross-functional teams.",
+    ],
+    tech: ["Next.js", "React", "Material UI", "Angular"],
+  },
+  {
+    company: "Media Exhibitors",
+    role: "Web Developer",
+    period: "May 2024 – Feb 2025",
+    location: "Nashik, Maharashtra",
+    project: "Krishithon Event",
+    highlights: [
+      "Developed the official event website with PHP, focusing on responsive, user-friendly design.",
+      "Implemented dynamic PDF generation with unique IDs and QR codes for visitor registration.",
+      "Automated PDF delivery via WhatsApp and email; configured SMS notifications for registration IDs.",
+      "Provided on-site technical support during the 5-day event for ticket counter software.",
+    ],
+    tech: ["PHP", "HTML", "CSS", "JavaScript", "MySQL"],
+  },
+  {
+    company: "21N78E Creative Labs",
+    role: "Web Developer",
+    period: "Apr 2023 – May 2024",
+    location: "Mumbai, Maharashtra",
+    highlights: [
+      "Designed engaging emailers and newsletters for campaigns using HTML and CSS.",
+      "Built responsive, mobile-friendly UIs with HTML, CSS, and JavaScript.",
+      "Collaborated with cross-functional teams to deliver high-quality products.",
+    ],
+    tech: ["HTML", "CSS", "JavaScript"],
+    clients: [
+      "Adobe",
+      "Metropolis",
+      "Unimart (UPL)",
+      "Manipal Cigna",
+      "Neutrinos",
+      "Reliance Digital",
+    ],
+  },
+  {
+    company: "I-Tech Systems & Services",
+    role: "Front-End Developer",
+    period: "Feb 2022 – Apr 2023",
+    location: "Nashik, Maharashtra",
+    highlights: [
+      "Designed dynamic, browser-compatible pages using HTML5, CSS3, jQuery, and JavaScript.",
+      "Improved website performance and accessibility with web standards and best practices.",
+      "Enhanced user engagement through smoother operations and polished interfaces.",
+    ],
+    tech: ["HTML5", "CSS3", "JavaScript", "jQuery"],
+  },
+];

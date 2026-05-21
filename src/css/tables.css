@@ -1,0 +1,220 @@
+.table-search ::placeholder {
+  letter-spacing: 3px !important;
+  color: #bfbfbf !important;
+}
+
+.table-search .MuiOutlinedInput-input {
+  font-size: 12px !important;
+  line-height: normal !important;
+  color: var(--black) !important;
+  padding: 6px !important;
+  padding-left: 0px !important;
+}
+
+.table-search .MuiSvgIcon-root {
+  color: #bfbfbf !important;
+}
+
+.table-search
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: var(--primary) !important;
+}
+
+/* ag grid table css started */
+.ag-root-wrapper {
+  border-radius: 0px !important;
+  border: none !important;
+}
+
+.ag-cell-wrapper {
+  height: 100% !important;
+}
+
+.ag-header-viewport {
+  background-color: var(--white) !important;
+  font-family: var(--font-playfair) !important;
+}
+
+.ag-header-cell-text {
+  color: var(--primary) !important;
+  font-size: 13px !important;
+  line-height: normal !important;
+}
+
+.ag-cell-focus:focus-within {
+  border-color: transparent !important;
+}
+
+.ag-row:hover {
+  background-color: transparent !important;
+}
+
+.ag-cell-value {
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  /* line-height: normal !important; */
+}
+
+.tb-sec-btn {
+  color: var(--secondary) !important;
+  background-color: #f6efe2 !important;
+  font-size: 11px !important;
+  line-height: normal !important;
+  text-transform: capitalize !important;
+  box-shadow: none !important;
+  padding: 6px 12px !important;
+}
+
+.tb-sec-btn .MuiSvgIcon-root {
+  font-size: 14px !important;
+}
+
+.highlighted-column {
+  background-color: #f9f9f9 !important;
+  text-align: center !important;
+}
+
+.highlighted-column .ag-header-cell-label {
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.primary-tb-txt {
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  /* line-height: normal !important; */
+}
+.secondary-tb-txt {
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+}
+
+.ag-row::before {
+  background-color: transparent !important;
+}
+
+/* Full Page tables */
+.main-table {
+  height: calc(100vh - 235px) !important;
+}
+
+.custom-header {
+  color: var(--primary) !important;
+  font-size: 13px !important;
+  line-height: normal !important;
+}
+
+.custom-header .unit {
+  font-size: 10px !important;
+  font-weight: 300 !important;
+}
+
+.highlighted-column-gry {
+  background-color: #f2f2f2 !important;
+}
+
+.highlighted-column-alice {
+  background-color: #dae9f8 !important;
+}
+
+.highlighted-column-gry .ag-header-cell-label {
+  text-align: right !important;
+  flex-direction: row-reverse !important;
+}
+.highlighted-column-gry .ag-cell-value {
+  text-align: right !important;
+}
+.highlighted-column-alice .ag-header-cell-label {
+  text-align: right !important;
+  flex-direction: row-reverse !important;
+}
+.highlighted-column-alice .ag-cell-value {
+  text-align: right !important;
+}
+
+.sm-table .ag-header-container {
+  border-top: 1px solid #d9d9d9 !important;
+}
+
+.sm-table .ag-header-cell-text {
+  color: var(--primary) !important;
+  font-size: 12px !important;
+  line-height: normal !important;
+  font-weight: 500 !important;
+}
+
+.header-center .ag-header-cell-label {
+  text-align: center !important;
+}
+
+.header-right .ag-header-cell-label {
+  flex-direction: row-reverse !important;
+}
+.header-right .ag-header-cell-comp-wrapper {
+  flex-direction: row-reverse !important;
+}
+
+/* Simple Table for File Varification */
+#data-input-table .MuiTableCell-root {
+  border: none !important;
+  padding: 2px !important;
+  width: 50% !important;
+}
+
+.cell-content {
+  background-color: var(--white) !important;
+  height: 35px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.cell-content .MuiTypography-root {
+  padding: 12px !important;
+}
+
+.cell-content .sub-point.MuiTypography-root {
+  padding: 12px !important;
+  padding-left: 30px !important;
+}
+
+.cell-content .MuiOutlinedInput-input {
+  font-size: 13px !important;
+  color: #32393f !important;
+  background-color: var(--white) !important;
+  min-width: 250px !important;
+}
+
+.cell-content .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: transparent !important;
+  border-width: 2px !important;
+  border-radius: 0px !important;
+}
+
+.cell-content
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: var(--light-secondary) !important;
+  border-width: 2px !important;
+}
+
+#data-input-table .MuiTableRow-root:hover .cell-content {
+  background-color: #fff4de !important;
+}
+
+#data-input-table .custom-simple-sticky-header {
+  background-color: var(--light-secondary) !important;
+  padding: 12px !important;
+}
+
+#data-input-table.approval .MuiTableRow-root:hover .cell-content {
+  background-color: #ffffff !important;
+}
+
+.cell-content h6 {
+  line-height: normal !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap;
+  max-width: 280px !important;
+}
